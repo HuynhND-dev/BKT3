@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/soA"
+        android:layout_width="130dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số A"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp"></EditText>
+
+        <EditText
+            android:id="@+id/soB"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Nhập số B"
+            android:inputType="numberDecimal"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="61dp"></EditText>
+
+        <EditText
+            android:id="@+id/ketqua"
+            android:textColor="@color/black"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="Kết quả"
+            android:inputType="numberDecimal"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="113dp"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_chia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chia"></Button>
+    </LinearLayout>
+</LinearLayout>
